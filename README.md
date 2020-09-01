@@ -17,6 +17,7 @@ The descriptions of principal files in this project are explained as follows:
 - `paper/`: containing our published paper.
 - `registry/`: codes for registering models, only the registered model classes can be recognized by the argument parser.
 - `run.py`: script used for training and testing models.
+- `requirements.txt`: containing a list of dependencies for conda.
 
 ## How to use:
 
