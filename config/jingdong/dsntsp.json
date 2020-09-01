@@ -1,0 +1,30 @@
+{
+  "name": "dsntsp",
+  "cls": "DSNTSP",
+  "data": "jingdong",
+  "epochs": 100,
+  "batch_size": 8,
+  "loss": "MultiLabelSoftMarginLoss",
+  "reduction": "sum",
+  "optimizer": "Adam",
+  "learning_rate": 1e-4,
+  "weight_decay": 0.0,
+  "early_stop": 100,
+  "cuda": 1,
+  "tensor_board": true,
+  "best_epoch": 13,
+  "model": {
+    "items_total": "auto",
+    "embed_dim": 256,
+    "time_encoding": "timestamp",
+    "set_embed_method": "attn_pool",
+    "num_set_embeds": 8,
+    "num_transformer_heads": 8,
+    "num_transformer_layers": 4,
+    "itm_temperature": 4.0,
+    "stm_temperature": 4.0,
+    "dropout": 0.5,
+    "set_embed_dropout": 0.1
+  },
+  "grid_search": {}
+}

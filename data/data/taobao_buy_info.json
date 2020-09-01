@@ -1,0 +1,1 @@
+{"num_users": 14714, "num_items": 14872, "num_sets": 99926, "num_set_items_mean": 2.2472429597902446, "num_set_items_min": 1, "num_set_items_max": 49, "num_user_sets_mean": 6.791219246975669, "num_user_sets_min": 4, "num_user_sets_max": 46, "num_user_items_mean": 15.261519641158081, "num_user_items_min": 10, "num_user_items_max": 673}
