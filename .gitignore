@@ -124,7 +124,6 @@ dmypy.json
 
 # my
 .idea/
-data/process_data/data/
 *.csv
 .vscode/
 runs/
